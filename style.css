@@ -45,6 +45,13 @@ body {
     font-size: 1.125rem;
 }
 
+main {
+    width: 100vw;
+    max-width: 1440px;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
 h1,
 h2,
 h3 {
@@ -606,7 +613,7 @@ svg:hover .social-link-color {
     }
 
     .header-img {
-        width: 55%;
+        max-width: 55vw;
     }
 
     .header-img img {
